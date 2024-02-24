@@ -1,0 +1,3 @@
+[tool.taskipy.tasks]
+run = "streamlit run src/app.py"
+test = "pytest tests -v"

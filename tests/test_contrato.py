@@ -38,13 +38,16 @@ def test_vendas_com_dados_invalidos():
         Vendas(**dados_invalidos)
 
 
+# Teste de validação de categoria
 def test_validacao_categoria():
     dados = {
         "email": "comprador@example.com",
         "data": datetime.now(),
         "valor": 100.50,
-        "produto": "Produto X",
-        "quantidade": 3,
-        "categoria": "categoria inexistentes",
+        "produto": "Produto Y",
+        "quantidade": 1,
+        "categoria": "categoria inexistente",
     }
-    
+
+    with pytest.raises(ValidationError):
+        Vendas(**dados)
