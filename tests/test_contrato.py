@@ -11,7 +11,7 @@ def test_vendas_com_dados_validos():
         "valor": 100.50,
         "produto": "Produto X",
         "quantidade": 3,
-        "categoria": "Categoria 3",
+        "categoria": "categoria3",
     }
 
     venda = Vendas(**dados_validos)
