@@ -1,5 +1,4 @@
 # Validador de Schemas Excel - Contratos de Dados
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Contracts
 ### `src.contrato.Vendas`
@@ -25,3 +24,6 @@ class Vendas(BaseModel):
     quantidade: PositiveInt
     categoria: CategoriaEnum
 ```
+
+#### Arquitetura do Contrato de Dados
+![Contrato](imgs/data_contract_architecture.png)

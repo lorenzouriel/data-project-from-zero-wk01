@@ -1,3 +1,6 @@
+## Acesse a aplicação
+- https://data-project-from-zero-wk01.streamlit.app/
+
 ### Instalação e Configuração
 
 #### 1. Clone o repositório:
@@ -28,22 +31,19 @@ pip install -r requirements.txt
 ```
 
 ### Arquitetura
+![Arquitetura](docs/imgs/architecture.png)
 
+#### Arquitetura do Contrato de Dados
+![Contrato](docs/imgs/data_contract_architecture.png)
 
-
-### Tecnologias e Bibliotecas
-- Python (Código)
-- Pyenv (Ambiente Virtual)
-- Selenium (Automatizações) 
-- Pytest (Testes unitários e funcionais)
-- Streamlit (Front-End)
-- Pydantic (Validação do contrato de dados)
-- mkdocs (Documentação)
+- Link para a Documentação do Contrato de Dados: https://lorenzouriel.github.io/data-project-from-zero-wk01/
 
 ---
 ---
 ---
 ---
+### Access the aplication
+- https://data-project-from-zero-wk01.streamlit.app/
 ### Installation and Configuration
 
 #### 1. Clone the repository:
@@ -73,16 +73,10 @@ source .venv/bin/activate
 pip install -r requirements.txt  
 ```
 
-
 ### Architecture
+![Arquitetura](docs/imgs/architecture.png)
 
+#### Data Contract Architecture
+![Contrato](docs/imgs/data_contract_architecture.png)
 
-
-### Techs and Libs
-- Python (Code)
-- Pyenv (Virtual Env)
-- Selenium (Automatization) 
-- Pytest (Unit and functional tests)
-- Streamlit (Front-End)
-- Pydantic (Validation of the data contract)
-- mkdocs (Documentation)
+- Link for Data Contract Documentation: https://lorenzouriel.github.io/data-project-from-zero-wk01/
